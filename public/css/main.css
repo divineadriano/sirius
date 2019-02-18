@@ -370,11 +370,12 @@ top: -8px;
 
 .mix {
     display: none;
+    align-items: center;
 }
 
 .work-item {
     float: left;
-    width: 23%;
+    width: 32%;
     position: relative;
     margin:0 0 5px 5px;
     -webkit-box-shadow: 6px 7px 12px 0px rgba(0,0,0,0.16);
