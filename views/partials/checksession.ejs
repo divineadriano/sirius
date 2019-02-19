@@ -1,0 +1,11 @@
+<script>
+    window.onload = function(event) {
+        var session = sessionStorage.getItem("session");
+        console.log(session);
+        if (session != 'true') {
+            setTimeout(function () {
+                window.location.href = "/checkemail";
+            }, 2000);
+        }
+    };
+</script>

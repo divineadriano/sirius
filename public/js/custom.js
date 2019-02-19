@@ -8,6 +8,19 @@ jQuery(window).load(function(){
 
 });
 
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+});
 
 $(document).ready(function(){
 
@@ -95,7 +108,19 @@ $(document).ready(function(){
             })
         })
     });
-	
+    
+    
+
+
+    //firebase initialize:
+        
+    
+    
+
+    //save to firebase
+    
+    
+    
 	/* ========================================================================= */
 	/*	Back to Top
 	/* ========================================================================= */
@@ -116,9 +141,24 @@ $(document).ready(function(){
 	
 });
 
+//SAVE TO FIREBASE//
+function checkSession() {
+    var session = sessionStorage.getItem("session");
+    if (session == 'true'){
+        setTimeout(function () {
+            window.location.href = "/";
+         }, 2000);
+    }
+    else {
+        setTimeout(function () {
+            window.location.href = "/checkemail";
+         }, 2000);
+    }
+}
 
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
+
     var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
 
     var mapOptions = {
@@ -148,4 +188,6 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, "load", initialize);
+
+
 // ========== END GOOGLE MAP ========== //
