@@ -14,8 +14,8 @@ app.get('/', function(req, res) {
 });
 
 //kyc
-app.get('/checkemail', function(req, res) {
-	res.render('pages/checkemail');
+app.get('/subscribe', function(req, res) {
+	res.render('pages/subscribe');
 });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

@@ -151,7 +151,7 @@ function checkSession() {
     }
     else {
         setTimeout(function () {
-            window.location.href = "/checkemail";
+            window.location.href = "/subscribe";
          }, 2000);
     }
 }

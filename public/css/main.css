@@ -862,7 +862,9 @@ border-bottom-color: #c0392b;
   box-shadow: -1px 6px 23px 0px rgba(1,41,62,0.8);
 }
 
-
+.email-form .btnsave:hover {
+  background: #399D9B !important;
+}
 
 /*=========================================
 	Contact Us
