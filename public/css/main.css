@@ -87,6 +87,9 @@ body > section,
   font-weight: 1000;
   text-transform: uppercase;
 }
+.sec-title img{
+  width:30%;
+}
 
 .sec-sub-title {
 	margin: 2% 20%;
