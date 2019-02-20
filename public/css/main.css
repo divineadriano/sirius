@@ -1056,6 +1056,116 @@ border-bottom-color: #c0392b;
   
 }
 
+@media only screen and (max-width:1024px){
+  .checkemail{
+    background-size: cover;
+    min-height: 95vh;
+    color: #fff;
+  }
+  
+  .email{
+    margin-top:0;
+  }
+  .email img{
+    width:50%;
+    margin-top: 5%;
+    margin-left:5%;
+  }
+  
+  .email h6{
+    margin-left:5%;
+  }
+  .email h2 {
+    color: #9ee5e9;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 3%;
+    margin-left:5%;
+  }
+  
+  
+  .email p{
+    font-size:1.8em;
+    font-weight:200;
+    margin-bottom: 2%;
+    margin-left:5%;
+    width:90%;
+    margin-top:1%;
+  }
+  
+  .email-form{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    min-height: 40vh;
+    padding:5%;
+    background:white;
+    -webkit-box-shadow: -1px 10px 30px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 10px 30px 0px rgba(0,0,0,0.5);
+    box-shadow: -1px 10px 30px 0px rgba(0,0,0,0.5);
+  }
+  
+  .email-form h2{
+    font-size: 2.5em;
+    font-weight: 100;
+    color:#0a6271 !important;
+    margin-bottom: 7%;
+    margin-top:5%;
+    text-align: center;
+  }
+  
+  .email-form .form-proper{
+  
+  }
+  .email-form .input-field {
+    width: 100%;
+  }
+  
+  .email-form .input-field .label{
+    color: #000 !important;
+  }
+  .email-form .input-group {
+    width: 100%;
+  }
+  
+  .email-form .form-control {
+    border-color: -moz-use-text-color -moz-use-text-color #cccccc;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  .email-form .input-field:last-child {
+    margin-right: 0;
+  }
+  
+  .email-form .form-control.error {
+  border-bottom-color: #c0392b;
+  }
+  
+  .email-form .btnsave {
+    background: #01293e;
+    border: 0 none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 2em;
+    line-height: 24px;
+    width: 50%;
+    padding:5%;
+    margin-top:5%;
+    -webkit-box-shadow: -1px 6px 23px 0px rgba(1,41,62,0.8);
+    -moz-box-shadow: -1px 6px 23px 0px rgba(1,41,62,0.8);
+    box-shadow: -1px 6px 23px 0px rgba(1,41,62,0.8);
+  }
+  
+  .email-form .btnsave:hover {
+    background: #399D9B !important;
+  }
+  
+}
 /*=========================================
 	Contact Us
 ==========================================*/
