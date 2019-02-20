@@ -564,7 +564,7 @@ ul.tabs li.current{
   }
   #preloader > img {
     left: 30% !important;
-    position: rekative;
+    position: relative;
     top: 35% !important;
   }
   .works{
@@ -979,7 +979,7 @@ border-bottom-color: #c0392b;
   
   
   .email p{
-    font-size:1.2em;
+    font-size:1.2em !important;
     font-weight:200;
     margin-bottom: 2%;
     margin-left:5%;
@@ -1000,7 +1000,7 @@ border-bottom-color: #c0392b;
   }
   
   .email-form h2{
-    font-size: 1.8em;
+    font-size: 1.8em !important;
     font-weight: 100;
     color:#0a6271 !important;
     margin-bottom: 7%;
@@ -1029,6 +1029,7 @@ border-bottom-color: #c0392b;
     border-width: 0 0 1px;
     box-shadow: none;
     margin-bottom: 10px;
+    font-size: 1em !important;
   }
   .email-form .input-field:last-child {
     margin-right: 0;
@@ -1043,9 +1044,9 @@ border-bottom-color: #c0392b;
     border: 0 none;
     border-radius: 50px;
     color: #fff;
-    font-size: 16px;
+    font-size: 1em !important;
     line-height: 24px;
-    width: 150px;
+    width: 60% !important;
     padding:5%;
     margin-top:5%;
     -webkit-box-shadow: -1px 6px 23px 0px rgba(1,41,62,0.8);
@@ -1060,10 +1061,13 @@ border-bottom-color: #c0392b;
 }
 
 @media only screen and (max-width:1024px){
+  body{
+    overflow: scroll;
+  }
   #preloader > img {
-    left: 40% !important;
+    left: 40%;
     position: rekative;
-    top: 45% !important;
+    top: 45%;
   }
   .works{
     padding:20% 0 !important;
