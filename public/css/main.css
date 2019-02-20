@@ -564,18 +564,17 @@ ul.tabs li.current{
   }
   #preloader > img {
     left: 30% !important;
-    position: relative;
     top: 35% !important;
   }
   .works{
     padding:30% 3% 5% 3% !important;
   }
   .sec-title{
-    font-size: 0.7em !important;
+    margin: 5% 0 0 0 !important;
+    font-size: 0.8em !important;
   }
   .sec-sub-title{
-    width:100% !important;
-    margin: 2% 0 3% 0 !important;
+    margin: 2% 5% 3% 5% !important;
   }
   .tab-content{
     display: none;
