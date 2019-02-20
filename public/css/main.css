@@ -1057,6 +1057,18 @@ border-bottom-color: #c0392b;
 }
 
 @media only screen and (max-width:1024px){
+  #preloader > img {
+    left: 40% !important;
+    position: rekative;
+    top: 45% !important;
+  }
+  .works{
+    padding:20% 0 !important;
+  }
+  .sec-title{
+    width: 100%;
+    padding:1% 10%;
+  }
   .checkemail{
     background-size: cover;
     min-height: 95vh;
