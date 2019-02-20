@@ -609,7 +609,7 @@ ul.tabs li.current{
   }
   
   .tab-content-list{
-    padding: 0 20%;
+    padding: 0 5%;
   }
   .tab-content-list li{
     text-align: left;
@@ -617,8 +617,8 @@ ul.tabs li.current{
     margin: 0 1% 1% 0;
   }
   .tab-content-list li h3{
-    padding: 1%;
-    font-size: 1.5em;
+    padding: 2%;
+    font-size: 1.2em;
   }
   
   .tab-content-list li h3 a{
@@ -968,7 +968,7 @@ border-bottom-color: #c0392b;
   }
   .email h2 {
     color: #9ee5e9;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 800;
     margin-top: 3%;
     margin-left:5%;

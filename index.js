@@ -13,9 +13,13 @@ app.get('/', function(req, res) {
 	res.render('pages/sirius');
 });
 
-//kyc
 app.get('/subscribe', function(req, res) {
 	res.render('pages/subscribe');
+});
+
+//kyc
+app.get('/node-blockchain', function(req, res) {
+	res.render('pages/node-blockchain');
 });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
