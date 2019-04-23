@@ -88,9 +88,8 @@ body > section,
   text-transform: uppercase;
 }
 .sec-title img{
-  width:30%;
+  width:90%;
 }
-
 .sec-sub-title {
 	margin: 2% 20%;
 }
@@ -541,7 +540,11 @@ ul.tabs li.current{
   border-bottom: 1px solid #6abdcc;
   margin: 0 1% 1% 0;
 }
+.tab-content h3{
+  margin-left:20%;
+}
 .tab-content-list li h3{
+  margin-left:0%;
   padding: 1%;
   font-size: 1.5em;
 }
@@ -557,6 +560,8 @@ ul.tabs li.current{
 .tab-content-list li h3 a i:hover{
   color: #6abdcc;
 }
+
+
 
 @media only screen and (max-width:479px){
   body{

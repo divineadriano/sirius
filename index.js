@@ -17,6 +17,10 @@ app.get('/subscribe', function(req, res) {
 	res.render('pages/subscribe');
 });
 
+app.get('/sirius', function(req, res) {
+	res.render('pages/sirius');
+});
+
 //kyc
 app.get('/node-blockchain', function(req, res) {
 	res.render('pages/node-blockchain');
