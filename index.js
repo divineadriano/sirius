@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 app.get('/', function(req, res) {
-	res.render('pages/sirius');
+	res.render('pages/subscribe');
 });
 
 app.get('/subscribe', function(req, res) {
