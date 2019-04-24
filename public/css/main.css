@@ -42,7 +42,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #43b0af !important;
+    color: #f4a91c !important;
 }
 
 h1, h2, h3,
@@ -131,7 +131,7 @@ body > section,
 }
 
 #preloader {
-  background-color: rgb(1, 47, 53);
+  background-color: rgba(28, 183, 204, 0.5);
   height: 100%;
   position: fixed;
   width: 100%;
@@ -150,7 +150,7 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgb(16, 22, 54);
+  background-color: #232323;
   border: 0 none;
   margin: 0;
   
@@ -476,7 +476,7 @@ TABBED VIEW
 ==========================================*/
 ul.tabs{
   margin: 0px;
-  padding: 0px;
+  padding: 5% 0 0 0   ;
   list-style: none;
   text-align: center;
 }
@@ -509,6 +509,7 @@ ul.tabs li.current{
   display: inline-block;
   text-align: center;
   background: #fff;
+  border-top: 5px #f4a91c solid;
   padding:5% 2% 5% 2%;
   margin: 0 1% 1% 0;
   -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
@@ -517,7 +518,7 @@ ul.tabs li.current{
 }
 
 .tab-content-lst li:hover{
-  background: #f5fbfc;
+  background: #f4f4f4;
 }
 .tab-content-lst li a img{
   width:60%;
@@ -537,7 +538,7 @@ ul.tabs li.current{
 }
 .tab-content-list li{
   text-align: left;
-  border-bottom: 1px solid #6abdcc;
+  border-bottom: 1px solid #f4a91c;
   margin: 0 1% 1% 0;
 }
 .tab-content-list li h3{
@@ -554,7 +555,7 @@ ul.tabs li.current{
   float: right;
 }
 .tab-content-list li h3 a i:hover{
-  color: #6abdcc;
+  color: #f4a91c;
 }
 
 
@@ -616,7 +617,7 @@ ul.tabs li.current{
   }
   .tab-content-list li{
     text-align: left;
-    border-bottom: 1px solid #6abdcc;
+    border-bottom: 1px solid #f4a91c;
     margin: 0 1% 1% 0;
   }
   .tab-content-list li h3{
@@ -633,7 +634,7 @@ ul.tabs li.current{
     float: right;
   }
   .tab-content-list li h3 a i:hover{
-    color: #6abdcc;
+    color: #f4a91c;
   }
 }
 
