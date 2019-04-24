@@ -21,6 +21,18 @@ app.get('/sirius', function(req, res) {
 	res.render('pages/sirius');
 });
 
+app.get('/SDK', function(req, res) {
+	res.render('pages/SDK');
+});
+
+app.get('/docs', function(req, res) {
+	res.render('pages/docs');
+});
+
+app.get('/bounty', function(req, res) {
+	res.render('pages/bounty');
+});
+
 //kyc
 app.get('/node-blockchain', function(req, res) {
 	res.render('pages/node-blockchain');
