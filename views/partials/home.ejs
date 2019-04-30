@@ -1,51 +1,68 @@
-<section id="slider">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Header --> 
+<header class="site-header is-sticky">
+	    
+    <!-- Place Particle Js -->
+    <div id="particles-js" class="particles-container particles-js"></div>
     
-        <!-- Indicators bullet -->
-       <!--  <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        </ol> -->
-        <!-- End Indicators bullet -->				
-        
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+        <nav class="container">
+
+            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./">
+                <img class="logo logo-dark" alt="logo" src="images/logo.png" srcset="images/logo2x.png 2x">
+                <img class="logo logo-light" alt="logo" src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x">
+            </a>
             
-            <!-- single slide -->
-            <div class="item active" style="background-image: url(img/banner.jpg);">
-                <div class="carousel-caption">
-                    <img src="img/proximax_sirius_header_logo.png" alt="ProximaX Sirius" class="header-logo">
-                    <h3 data-wow-duration="1000ms" class="wow slideInLeft animated">BLOCKCHAIN REIMAGINED AND EVOLVED</h3>
-                    
-                   <!--  <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-                    </ul> -->
-                </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+                <span class="navbar-toggler-icon">
+                    <span class="ti ti-align-justify"></span>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+                <ul class="navbar-nav animated remove-animation" data-animate="fadeInDown" data-delay=".75">
+                    <li class="nav-item"><a class="nav-link menu-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#documents">Documentations</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#sdk">SDKs</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#bounty">Bounties</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#faq">FAQs</a></li>
+                </ul>
             </div>
-            <!-- end single slide -->
-            
-            <!-- single slide -->
-            <!-- <div class="item" style="background-image: url(img/banner.jpg);">
-                <div class="carousel-caption">
-                    <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
-                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
-                    <p data-wow-duration="500ms" class="wow slideInRight animated">We are a team of professionals</p>
-                    
-                    <ul class="social-links text-center">
-                        <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-                    </ul>
-                </div>
-            </div> -->
-            <!-- end single slide -->
-            
-        </div>
-        <!-- End Wrapper for slides -->
-        
+        </nav>
     </div>
-</section>
+    <!-- End Navbar -->
+
+    <!-- Banner/Slider -->
+    <div id="header" class="banner banner-salvia">
+        <div class="container">
+            <div class="banner-content">
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-5 col-xl-5 res-m-bttm-lg text-center text-lg-left">
+                        <div class="header-txt">
+                            <h2 class="animated" data-animate="fadeInUp" data-delay="1.25">About ProximaX Sirius</h2>
+                            <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">The ProximaX Sirius core infrastructure platform leverages on an amended and augmented blockchain and is integrated with peer-to-peer, distributed off-chain storage, streaming, and database layers.</p>
+                            
+                            <div class="gaps size-2x"></div>
+                            <h6 class="animated" data-animate="fadeInUp" data-delay="1.55">Join our community</h6>
+                            <ul class="social-link-exp">
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.65"><a href="#"><em class="fas fa-paper-plane"></em><span> Telegram</span></a></li>
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.7"><a href="#"><em class="fab fa-facebook-f"></em></a></li>
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.75"><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.8"><a href="#"><em class="fab fa-medium-m"></em></a></li>
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.85"><a href="#"><em class="fab fa-github"></em></a></li>
+                                <li class="animated" data-animate="fadeInUp" data-delay="1.9"><a href="#"><em class="fab fa-bitcoin"></em></a></li>
+                            </ul>
+                        </div>
+                    </div><!-- .col  -->
+                    <div class="col-lg-7 col-xl-7 col-md-8 col-sm-9">
+                        <div class="animated" data-animate="fadeInUp" data-delay="2">
+                            <img src="images/salvia/graph-salvia-a.png" alt="graph" style="max-width:130% !important;">
+                        </div>
+                    </div><!-- .col  -->
+                </div><!-- .row  -->
+            </div><!-- .banner-content  -->
+        </div><!-- .container  -->
+    </div>
+</header>
+<!-- End Header -->
